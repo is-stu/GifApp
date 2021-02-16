@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
 import { AddCategory } from './AddCategory';
+import { GifCollection } from './GifCollection';
 
 export function GifApp() {
-  const [categories, setCategories] = useState([
-    'Naruto',
-    'Dragon Ball',
-    'BB theory',
-  ]);
+  const [categories, setCategories] = useState(['Rick & Morty']);
 
   //   const handleAdd = (e) => {
   //     e.preventDefault();
@@ -21,7 +18,7 @@ export function GifApp() {
 
       <ol>
         {categories.map((category) => (
-          <li key={category}>{category}</li>
+          <GifCollection category={category} key={category} />
         ))}
       </ol>
     </div>
