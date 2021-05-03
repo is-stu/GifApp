@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing GifCollectionItem Match with Snapshot  1`] = `
+<div
+  className="card"
+>
+  <img
+    className="img"
+  />
+  <p>
+     
+     
+  </p>
+</div>
+`;
